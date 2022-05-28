@@ -1,0 +1,60 @@
+CSS
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: #3b3b3b;
+    opacity: 0.9;
+    background-image:  radial-gradient(#ffffff 0.30000000000000004px, transparent 0.30000000000000004px), radial-gradient(#ffffff 0.30000000000000004px, #3b3b3b 0.30000000000000004px);
+    background-size: 12px 12px;
+    background-position: 0 0,6px 6px;
+    display: flex;
+    min-height: 100vh;
+}
+
+.form{
+    background-color: #ffffff;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 3em 6em;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px -2px rgb(0 0 0 / 20%);
+    text-align: center;
+}
+
+.form_title{
+    color:green;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form_group{
+    text-align: left;
+    width: 100%;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.form_input{
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+}
+.form_ref{
+    color:darkseagreen
+}
+
+.form_submit{
+    background-color: green;
+    color: white;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -2px rgb(0 0 0 / 20%);
+}
